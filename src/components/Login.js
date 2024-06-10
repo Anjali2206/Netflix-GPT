@@ -6,6 +6,7 @@ import { addUser } from '../utils/userSlice';
 import { checkValidate } from "../utils/Validate";
 import { useNavigate } from "react-router";
 import { useDispatch } from "react-redux";
+import { NETFLIX_BG } from "../utils/constants";
 
 const Login = () => {
   const dispatch=useDispatch()
@@ -96,7 +97,7 @@ const Login = () => {
       <div className="absolute">
         <img
           className="top-0 left-0 h-full w-full"
-          src="https://assets.nflxext.com/ffe/siteui/vlv3/dd4dfce3-1a39-4b1a-8e19-b7242da17e68/86742114-c001-4800-a127-c9c89ca7bbe4/IN-en-20240527-popsignuptwoweeks-perspective_alpha_website_large.jpg"
+          src={NETFLIX_BG}
           alt="Netflix-img"
         />
         <div className="absolute top-0 left-0 h-full w-full bg-gradient-to-b from-gray-900 to-transparent"></div>
