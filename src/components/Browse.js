@@ -24,8 +24,7 @@ const Browse = () => {
       {showGptSearch ? (<GptSearch/>):
       (<>
       
-      <MainContainer/>
-     
+      <MainContainer/>    
      <SecondaryContainer/></>)}
       
   
