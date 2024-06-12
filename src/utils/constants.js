@@ -3,7 +3,7 @@ export const API_OPTIONS= {
     method: 'GET',
     headers: {
       accept: 'application/json',
-      Authorization: 'Bearer '+process.env.REACT_APP_TMDB_KEY ? process.env.REACT_APP_TMDB_KEY: 'eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJjMmY4ZDk3YjFkMGI1YWRmYmZhZGZmYTI4NDU5ZDE5MiIsInN1YiI6IjY2NWVlMmRkMDEzMzk4YzE2ODY1ODE1ZCIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.Pjsn0wFTrzxQDY4gszhT-o0CRE2dm3S-z6pOI1OiwE0'
+      Authorization: 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJjMmY4ZDk3YjFkMGI1YWRmYmZhZGZmYTI4NDU5ZDE5MiIsInN1YiI6IjY2NWVlMmRkMDEzMzk4YzE2ODY1ODE1ZCIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.Pjsn0wFTrzxQDY4gszhT-o0CRE2dm3S-z6pOI1OiwE0'
     }
   };
   
